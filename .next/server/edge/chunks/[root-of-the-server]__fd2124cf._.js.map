@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 23, "column": 0}, "map": {"version":3,"sources":["turbopack:///[project]/MAJOR PROJECT/App/middleware.ts"],"sourcesContent":["import { NextRequest, NextResponse } from \"next/server\";\r\nimport { headers } from \"next/headers\";\r\nimport { auth } from \"@/lib/auth\";\r\n\r\nexport async function middleware(request: NextRequest) {\r\n  const session = await auth.api.getSession({ headers: await headers() });\r\n}\r\n\r\nexport const config = {\r\n  matcher: [],\r\n};"],"names":[],"mappings":";;;;AACA;AAAA;;;;;;;;AAGO,eAAe,WAAW,OAAoB;IACnD,MAAM,UAAU,MAAM,KAAK,GAAG,CAAC,UAAU,CAAC;QAAE,SAAS,MAAM,CAAA,GAAA,oMAAA,CAAA,UAAO,AAAD;IAAI;AACvE;AAEO,MAAM,SAAS;IACpB,SAAS,EAAE;AACb"}}]
+}
