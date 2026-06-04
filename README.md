@@ -14,7 +14,7 @@ An AI-powered application for detecting manipulated media using deep learning. T
 ## End-to-End AI Pipeline
 
 <p align="center">
-  <img src="./docs/system-architecture.png" alt="AI Pipeline" width="100%">
+  <img src="./MINDMAP/mindmap_img.png" alt="AI Pipeline" width="100%">
 </p>
 
 This diagram illustrates the complete workflow of the Media Integrity Checker, including data collection, preprocessing, CNN model training, explainable AI generation, LLM-powered interpretation, backend inference services, frontend visualization, and forensic report generation.
