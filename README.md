@@ -137,6 +137,7 @@ The backend will be available at:
 In a new terminal:
 
 ```bash
+cd Frontend
 npm run dev
 ```
 
